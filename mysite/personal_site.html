@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Pixelmelt's site</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+	<style type="text/css">
+		
+		body {
+		  background-color: #000000;
+		}
+
+		#logo {
+		  display: none;
+		}
+
+		canvas {
+		  position: absolute;
+		  top: 50%;
+		  left: 50%;
+		  transform: translate(-50%, -50%);
+		}
+		
+		.main-content{
+			text-align: center;
+			color: white;
+			font-size: 76px;
+		}
+	</style>
+</head>
+<body>
+	<div class="main-content">
+		<span id="replacetext">%s is a fish</span>
+	</div>
+	<img
+  id="logo"
+  class="next-particle"
+
+  data-renderer="webgl"
+  data-particle-size="2"
+  data-particle-gap="0"
+
+  src="https://cdn.upload.systems/uploads/2hwhfnaZ.jpeg"
+/>
+	<script type="text/javascript" src="./mysite.js"></script>
+	<script type="text/javascript" src="./nextparticle.min.js"></script>
+</body>
+</html>
